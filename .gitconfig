@@ -1,0 +1,14 @@
+[user]
+	name = luis rosario
+	email = lrosario101@gmail.com
+[core]
+	editor = subl -n -w
+	excludesfile = /Users/zapo/.gitignore_global
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	cm = commit
+	unstage = reset --HEAD
+	last = log -1 HEAD
+  hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
